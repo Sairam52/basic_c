@@ -1,0 +1,14 @@
+#include<stdio.h>
+float n1,n2;
+int main(){
+printf("Enter the 1st no:\n");
+scanf("%f", &n1);
+
+printf("Enter the 2nd no:\n");
+scanf("%f", &n2);
+
+float sum = n1+n2;
+
+printf("The sum is: %f", sum);
+
+}
