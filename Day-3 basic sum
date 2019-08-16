@@ -1,0 +1,13 @@
+#include<stdio.h>
+int n1,n2; int sum;
+int main(){
+printf("Enter the 1st no:\n");
+scanf("%d", &n1);
+
+printf("Enter the 2nd no:\n");
+scanf("%d", &n2);
+
+sum = n1+n2;
+
+printf("The sum is: %d", sum);
+}
